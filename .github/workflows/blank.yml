@@ -6,6 +6,10 @@ jobs:
     steps:
       - name: print hello
         run: echo "hello world"
+      - name: install neofetch
+        run: sudo apt install neofetch
+      - name: neofetch
+        run: neofetch
       - name: print bye
         run: echo "done -bye"
     
