@@ -1,0 +1,11 @@
+name: First owrkflow
+on: workflow_dispatch
+jobs:
+  first_job:  #not reserved keyword
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello
+        run: echo "hello world"
+      - name: print bye
+        run: echo "done -bye"
+    
